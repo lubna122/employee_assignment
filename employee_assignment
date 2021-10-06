@@ -1,0 +1,40 @@
+class empolyee():
+    def __init__(self,name,age,pay,experience):
+        self.name=name
+        self.age=age
+        self.pay=pay
+        self.experience=experience
+emp1=empolyee("lubna",24,70000,5)
+emp2=empolyee("ahmed",25,75000,6)
+emp3=empolyee("riaz",26,80000,10)
+print("information of Employee one:")
+print(emp1.name)
+print(emp1.age)
+print(emp1.pay)
+print(emp1.experience)
+print("information of Employee two:")
+print(emp2.name)
+print(emp2.age)
+print(emp2.pay)
+print(emp2.experience)
+print("information of Employee three:")
+print(emp3.name)
+print(emp3.age)
+print(emp3.pay)
+print(emp3.experience)
+OUTPUT:
+information of Employee one:
+lubna
+24
+70000
+5
+information of Employee two:
+ahmed
+25
+75000
+6
+information of Employee three:
+riaz
+26
+80000
+10
